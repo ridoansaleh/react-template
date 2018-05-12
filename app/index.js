@@ -6,7 +6,6 @@ import routes from './routes.js';
 
 ReactDom.render(
   <BrowserRouter>
-    {/* kick it all off with the root route */}
     {renderRoutes(routes)}
   </BrowserRouter>,
   document.getElementById('root')

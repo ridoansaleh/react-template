@@ -2,7 +2,6 @@
   "name": "react-template",
   "version": "1.0.0",
   "description": "a react-app",
-  "main": "./app/index.js",
   "scripts": {
     "start": "node server.js",
     "build": "webpack --config ./webpack.config.js --progress --colors"
