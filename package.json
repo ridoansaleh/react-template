@@ -2,7 +2,6 @@
   "name": "react-template",
   "version": "1.0.0",
   "description": "a react-app",
-  "main": "./app/index.js",
   "scripts": {
     "start": "node server.js",
     "build": "webpack --config ./webpack.config.js --progress --colors"
@@ -15,7 +14,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "webpack": "^3.5.6"
   },
